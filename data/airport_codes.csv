@@ -1,0 +1,42 @@
+City,State,ICAO,IATA,Airport Name,Airlines,Destinations
+Abuja,FCT,DNAA,ABV,Nnamdi Azikiwe International Airport,8,25
+Abakaliki,Ebonyi,DNEB,,Ebonyi State International Airport,N/A,N/A
+Abeokuta,Ogun,DNAA? , ,Abeokuta Airstrip (state) ,N/A,N/A
+Ado Ekiti,Ekiti, , ,Ekiti State Airstrip (Ado Ekiti),N/A,N/A
+Akanu Ibiam (Enugu),Enugu,DNEN,ENU,Akanu Ibiam International Airport,2,3
+Akure,Ondo,DNAK,AKR,Akure Airport,N/A,N/A
+Asaba,Delta,DNAS,ABB,Asaba International Airport,N/A,N/A
+Awka/Umueri,Anambra,DNAN,ANA,Chinua Achebe International Airport (Anambra),N/A,N/A
+Bauchi,Bauchi,DNBC,BCU,Sir Abubakar Tafawa Balewa Airport,?,?
+Benin City,Edo,DNBE,BNI,Benin Airport,1,2
+Birnin Kebbi,Kebbi,DNBK,,Kebbi International Airport,N/A,N/A
+Damaturu,Yobe, , ,Damaturu Cargo Airport,N/A,N/A
+Dutse,Jigawa,DNDS,,Dutse International Airport,N/A,N/A
+Eket,Akwa Ibom,DNEK,,Eket Airstrip,N/A,N/A
+Gombe,Gombe,DNGO,GMO,Gombe Lawanti International Airport,1,1
+Gusau,Zamfara,DNGU,QUS,Gusau Airstrip,N/A,N/A
+Ibadan,Oyo,DNIB,IBA,Ibadan Airport,1,1
+Ilorin,Kwara,DNIL,ILR,General Tunde Idiagbon International Airport,1,1
+Jalingo,Taraba,DNJA,,Jalingo Airport (Danbaba Danfulani Suntai Airport),N/A,N/A
+Jos,Plateau,DNJO,JOS,Yakubu Gowon Airport,1,1
+Kabba/Kogi (Ajaokuta),Kogi,DN51,,Ajaokuta Airstrip/Nigerian state airstrip,N/A,N/A
+Kaduna,Kaduna,DNKA,KAD,Kaduna International Airport,2,1
+Kano,Kano,DNKN,KAN,Mallam Aminu Kano International Airport,6,7
+Katsina,Katsina,DNKT,DKA,Katsina Airport,N/A,N/A
+Lagos,Lagos,DNMM,LOS,Murtala Muhammed International Airport,27,43
+Lafia,Nasarawa, , ,Lafia Cargo Airport,N/A,N/A
+Makurdi,Benue,DNMK,MDI,Makurdi Airport,N/A,N/A
+Minna,Niger,DNMN,MXJ,Minna Airport,N/A,N/A
+Maiduguri,Borno,DNMA,MIU,Maiduguri International Airport,2,1
+Owerri,Imo,DNIM,QOW,Sam Mbakwe International Cargo Airport (SMICA),1,2
+Oshogbo/Osun,Osun, , ,Osun State Airstrip (Ile-Ife region),N/A,N/A
+Ogun State (Ogun),Ogun, , ,Ogun State Airstrip(s) (various),N/A,N/A
+Oyo State (Oyo),Oyo,DNIB,IBA,Ibadan Airport (main for Oyo),1,1
+Port Harcourt,Rivers,DNPO,PHC,Port Harcourt International Airport,7,2
+Port Harcourt NAF, Rivers,DNPM,PHG,Port Harcourt NAF Base (military),N/A,N/A
+Sokoto,Sokoto,DNSO,SKO,Sadiq Abubakar III International Airport,1,1
+Uyo,Akwa Ibom,DNAI,QUO,Victor Attah International Airport,1,1
+Warri (Osubi),Delta,DNSU,QRW,Osubi Airport (Osubi Airstrip),1,2
+Yenagoa,Bayelsa,DNBY,,Bayelsa International Airport,N/A,N/A
+Yola,Adamawa,DNYO,YOL,Yola Airport,1,1
+Zaria,Kaduna,DNZA,ZAR,Zaria Airport,N/A,N/A

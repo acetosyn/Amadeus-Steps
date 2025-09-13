@@ -1,0 +1,113 @@
+:root {
+  --accent: #0d1b2a;       /* navy blue */
+  --accent-600: #1b263b;   /* lighter navy */
+  --highlight: #e63946;    /* red accent */
+  --text: #2b2b2b;
+  --card: rgba(255,255,255,0.97);
+  --muted: #6b6b6b;
+}
+
+body {
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  margin: 0;
+  color: var(--text);
+  background: linear-gradient(135deg, #f8f9fa 0%, #edf2f4 50%, #ffffff 100%);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+header {
+  text-align: center;
+}
+
+.logo-text {
+  font-size: 1.8rem;
+  font-weight: 800;
+  color: var(--accent);
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+}
+
+.powered-by {
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+/* input */
+input[type="text"], input[type="search"], textarea {
+  font-size: 1rem;
+  border: 2px solid var(--accent-600);
+  border-radius: 12px;
+  padding: 0.75rem 1rem;
+}
+input:focus {
+  outline: none;
+  border-color: var(--highlight);
+  box-shadow: 0 0 0 4px rgba(230, 57, 70, 0.2);
+}
+
+/* result card */
+.result-card {
+  background: var(--card);
+  padding: 1rem;
+  border-radius: 14px;
+  border: 1px solid rgba(13, 27, 42, 0.08);
+  box-shadow: 0 6px 20px rgba(13, 27, 42, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+.result-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 14px 32px rgba(230, 57, 70, 0.15);
+  border-color: var(--highlight);
+}
+
+/* detail panel styling */
+#detailPanel {
+  border-radius: 14px;
+  border: 1px solid rgba(13, 27, 42, 0.1);
+  background: #fff;
+  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.08);
+}
+
+/* highlight IATA codes */
+#detailIATA {
+  color: var(--highlight);
+}
+
+/* table inside flights */
+#flightsContainer table {
+  width: 100%;
+  border-collapse: collapse;
+}
+#flightsContainer th {
+  padding: 8px 6px;
+  text-align: left;
+  font-size: 0.9rem;
+  color: var(--accent);
+  border-bottom: 2px solid var(--accent-600);
+}
+#flightsContainer td {
+  padding: 6px;
+  border-bottom: 1px dashed #ccc;
+  font-size: 0.9rem;
+}
+
+/* buttons */
+button {
+  border-radius: 10px;
+  padding: 0.5rem 1rem;
+  background: var(--accent);
+  color: #fff;
+  border: none;
+  transition: background 0.2s ease;
+}
+button:hover {
+  background: var(--highlight);
+}
+
+/* responsive tweaks */
+@media (max-width: 768px) {
+  .logo-text { font-size: 1.3rem; }
+  #detailPanel { padding: 1rem; }
+}
